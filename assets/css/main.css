@@ -1629,7 +1629,7 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+.instructor .instructor-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);
   box-sizing: content-box;
@@ -1642,79 +1642,71 @@ section,
   transition: 0.3s;
 }
 
-.testimonials .testimonial-item .stars {
-  margin-bottom: 15px;
-}
 
-.testimonials .testimonial-item .stars i {
-  color: #ffc107;
-  margin: 0 1px;
-}
-
-.testimonials .testimonial-item .testimonial-img {
-  width: 90px;
+.instructor .instructor-item .instructor-img {
+  width: 250px;
   border-radius: 50%;
   border: 4px solid var(--background-color);
   margin: 0 auto;
 }
 
-.testimonials .testimonial-item h3 {
+.instructor .instructor-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
 }
 
-.testimonials .testimonial-item h4 {
+.instructor .instructor-item h4 {
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   margin: 0;
 }
 
-.testimonials .testimonial-item p {
+.instructor .instructor-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
 }
 
-.testimonials .swiper-wrapper {
+.instructor .swiper-wrapper {
   height: auto;
 }
 
-.testimonials .swiper-pagination {
+.instructor .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.instructor .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.instructor .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.testimonials .swiper-slide {
+.instructor .swiper-slide {
   opacity: 0.3;
 }
 
 @media (max-width: 1199px) {
-  .testimonials .swiper-slide-active {
+  .instructor .swiper-slide-active {
     opacity: 1;
   }
 
-  .testimonials .swiper-pagination {
+  .instructor .swiper-pagination {
     margin-top: 0;
   }
 
-  .testimonials .testimonial-item {
+  .instructor .instructer-item {
     margin: 40px 20px;
   }
 }
 
 @media (min-width: 1200px) {
-  .testimonials .swiper-slide-next {
+  .instructor .swiper-slide-next {
     opacity: 1;
     transform: scale(1.12);
   }
